@@ -14,7 +14,7 @@
 			"text": true,
 			"background": true,
 			"link": false,
-			"custom": false,
+			"custom": true,
 			"customDuotone": false,
 			"customGradient": false,
 			"defaultDuotone": false,
@@ -76,5 +76,36 @@
       "text": "var(--wp--preset--color--primary)",
       "background": "var(--wp--preset--color--background)"
     }
-  }
+  },
+	"templateParts": [
+    {
+			"name": "layout-footer",
+			"title": "Footer",
+			"area": "footer"
+		},
+    {
+			"name": "layout-header",
+			"title": "Header",
+			"area": "header"
+		},
+    {
+			"name": "page-content",
+			"title": "Page content",
+			"area": "page-content"
+		},
+    {
+			"name": "latest-posts",
+			"title": "Latest Posts",
+			"area": "latest-posts"
+		}
+  ],
+  "customTemplates": [
+    {
+      "name": "template-post-list",
+      "title": "Post List",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ]
 }
