@@ -1,3 +1,10 @@
+<?php
+ /**
+  * Title: Latest Posts
+  * Slug: wordpress-block-theme/latest-posts
+  * Categories: wordpress-block-theme
+  */
+?>
 <!-- wp:group -->
 <div class="wp-block-group latest-posts">
     <!-- wp:group {
