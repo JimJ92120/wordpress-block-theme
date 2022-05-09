@@ -55,6 +55,7 @@ git clone https://github.com/JimJ92120/wordpress-block-theme.git
 ```
 
 #### Via `composer`
+See [`jimj92120-wordpress-theme/wordpress-block-theme`](https://packagist.org/packages/jimj92120-wordpress-theme/wordpress-block-theme)  
 ```bash
 composer require jimj92120-wordpress-theme/wordpress-block-theme
 ```
