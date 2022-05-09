@@ -21,7 +21,7 @@
 			"defaultGradients": false,
 			"defaultPalette": false,
 			"palette": [
-			{
+				{
 					"slug": "primary",
 					"color": "#002333",
 					"name": "Primary"
