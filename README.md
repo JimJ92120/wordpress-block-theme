@@ -52,3 +52,4 @@ git clone <repository url>
 - [Block Theme Documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/)
 - [fullsiteediting.com](https://fullsiteediting.com/)
 - [WordPress 6.0 block patterns](https://make.wordpress.org/core/2022/05/02/new-features-for-working-with-patterns-and-themes-in-wordpress-6-0/#comment-43005)
+- [Theme style variations](https://fullsiteediting.com/lessons/global-style-variations/)
