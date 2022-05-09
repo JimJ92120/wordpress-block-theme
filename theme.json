@@ -23,17 +23,17 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#002333",
+					"color": "#159a9c",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#159a9c",
+					"color": "#b4bec9",
 					"name": "Secondary"
 				},
 				{
 					"slug": "dark",
-					"color": "#b4bec9",
+					"color": "#002333",
 					"name": "Dark"
 				},
 				{
@@ -75,7 +75,14 @@
     "color": {
       "text": "var(--wp--preset--color--primary)",
       "background": "var(--wp--preset--color--background)"
-    }
+    },
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--dark)"
+				}
+			}
+		}
   },
 	"templateParts": [
     {
