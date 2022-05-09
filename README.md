@@ -1,13 +1,24 @@
 # WordPress Block Theme
 
 A WordPress theme enabling Full Site Editing and Block theme functionalities.  
+It makes use of WordPress `6.0` (or above) and Gutenberg plugin `13.0` (or above) latest introduced features.
 
-Theme contains some default `templates` and `parts`.  
-Additionally, a `light` and a `dark` theme have been registered along main `theme.json`
+---
+---
+## Features
 
+- theme.json
+- templates and parts using blocks only as `html` files
+- style variations registration in `styles/` directory
+- block patterns registration in `patterns/` directory
+
+
+---
+---
 ## Directory and files structure
 ```bash
 parts/ # register custom template parts
+patterns/ # register theme patterns
 styles/ # register additional styles as theme.json
 templates/ # register custom page templates
 composer.json
@@ -40,9 +51,13 @@ Others:
 
 #### Via `git`
 ```bash
-git clone <repository url>
+git clone https://github.com/JimJ92120/wordpress-block-theme.git
 ```
 
+#### Via `composer`
+```bash
+composer require jimj92120-wordpress-theme/wordpress-block-theme
+```
 
 ---
 ---
