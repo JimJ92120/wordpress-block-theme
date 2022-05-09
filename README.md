@@ -14,7 +14,7 @@ composer.json
 functions.php # add and register theme functionalities
 index.php
 style.css # default theme stylesheet
-theme.json # rreregister theme supports, settings and styling functionalities
+theme.json # reregister theme supports, settings and styling functionalities
 ```
 
 
@@ -50,4 +50,4 @@ git clone <repository url>
 
 - [Full Site Editing Documentation](https://developer.wordpress.org/block-editor/getting-started/full-site-editing/)
 - [Block Theme Documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/)
--  [fullsiteediting.com](https://fullsiteediting.com/)
+- [fullsiteediting.com](https://fullsiteediting.com/)
