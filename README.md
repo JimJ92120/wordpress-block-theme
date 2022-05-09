@@ -28,7 +28,7 @@ theme.json # reregister theme supports, settings and styling functionalities
 
 
 Others:
-- [WordPress](https://wordpress.org/download/releases/) - `^5.0`
+- [WordPress](https://wordpress.org/download/releases/) - `^6.0`
 - [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) - `^13.0`
 
 
@@ -51,3 +51,4 @@ git clone <repository url>
 - [Full Site Editing Documentation](https://developer.wordpress.org/block-editor/getting-started/full-site-editing/)
 - [Block Theme Documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/)
 - [fullsiteediting.com](https://fullsiteediting.com/)
+- [WordPress 6.0 block patterns](https://make.wordpress.org/core/2022/05/02/new-features-for-working-with-patterns-and-themes-in-wordpress-6-0/#comment-43005)
