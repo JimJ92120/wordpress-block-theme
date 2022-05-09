@@ -1,0 +1,17 @@
+{
+  "name": "jimj92120-wordpress-theme/wordpress-block-theme",
+  "description": "A Block theme.",
+  "type": "wordpress-theme",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "JimJ92120",
+      "email": "57893611+JimJ92120@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.4",
+    "composer/installers": "^2.1"
+  }
+}
