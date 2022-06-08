@@ -1,105 +1,105 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
-	"title": "WordPress Block Theme",
-	"settings": {
-		"appearanceTools": false,
-		"border": {
-			"color": false,
-			"radius": false,
-			"style": false,
-			"width": false
-		},
-		"color": {
-			"text": true,
-			"background": true,
-			"link": false,
-			"custom": true,
-			"customDuotone": false,
-			"customGradient": false,
-			"defaultDuotone": false,
-			"defaultGradients": false,
-			"defaultPalette": false,
-			"palette": [
-				{
-					"slug": "primary",
-					"color": "#159a9c",
-					"name": "Primary"
-				},
-				{
-					"slug": "secondary",
-					"color": "#b4bec9",
-					"name": "Secondary"
-				},
-				{
-					"slug": "dark",
-					"color": "#002333",
-					"name": "Dark"
-				},
-				{
-					"slug": "light",
-					"color": "#ffffff",
-					"name": "Light"
-				},
-				{
-					"slug": "background",
-					"color": "#deefe7",
-					"name": "background"
-				}
-			]
-		},
-		"layout": {
-			"contentSize": "840px",
-			"wideSize": "1100px"
-		},
-		"spacing": {
-			"blockGap": null,
-			"margin": false,
-			"padding": false,
-			"units": []
-		},
-		"typography": {
-			"customFontSize": false,
-			"fontStyle": false,
-			"fontWeight": false,
-			"letterSpacing": false,
-			"lineHeight": false,
-			"textDecoration": false,
-			"textTransform": false,
-			"dropCap": false,
-			"fontSizes": [],
-			"fontFamilies": []
-		}
-	},
-	"styles": {
+  "title": "WordPress Block Theme",
+  "settings": {
+    "appearanceTools": false,
+    "border": {
+      "color": false,
+      "radius": false,
+      "style": false,
+      "width": false
+    },
+    "color": {
+      "text": true,
+      "background": true,
+      "link": false,
+      "custom": true,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#159a9c",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#b4bec9",
+          "name": "Secondary"
+        },
+        {
+          "slug": "dark",
+          "color": "#002333",
+          "name": "Dark"
+        },
+        {
+          "slug": "light",
+          "color": "#ffffff",
+          "name": "Light"
+        },
+        {
+          "slug": "background",
+          "color": "#deefe7",
+          "name": "background"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "blockGap": null,
+      "margin": false,
+      "padding": false,
+      "units": []
+    },
+    "typography": {
+      "customFontSize": false,
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "lineHeight": false,
+      "textDecoration": false,
+      "textTransform": false,
+      "dropCap": false,
+      "fontSizes": [],
+      "fontFamilies": []
+    }
+  },
+  "styles": {
     "color": {
       "text": "var(--wp--preset--color--primary)",
       "background": "var(--wp--preset--color--background)"
     },
-		"elements": {
-			"link": {
-				"color": {
-					"text": "var(--wp--preset--color--dark)"
-				}
-			}
-		}
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--dark)"
+        }
+      }
+    }
   },
-	"templateParts": [
+  "templateParts": [
     {
-			"name": "layout-footer",
-			"title": "Footer",
-			"area": "footer"
-		},
+      "name": "layout-footer",
+      "title": "Footer",
+      "area": "footer"
+    },
     {
-			"name": "layout-header",
-			"title": "Header",
-			"area": "header"
-		},
+      "name": "layout-header",
+      "title": "Header",
+      "area": "header"
+    },
     {
-			"name": "page-content",
-			"title": "Page content",
-			"area": "page-content"
-		}
+      "name": "page-content",
+      "title": "Page content",
+      "area": "page-content"
+    }
   ],
   "customTemplates": [
     {
